@@ -1,15 +1,15 @@
+import VisionCamera
 import MLKitBarcodeScanning
 import MLKitVision
 
-@objc(VisionCameraScanner)
-public class VisionCameraScanner: FrameProcessorPlugin {
+@objc(VisionCameraQrCodePlugin)
+public class VisionCameraQrCodePlugin: FrameProcessorPlugin {
+    @objc public init(withOptions options: [AnyHashable : Any]) {
+        super.init()
+    }
     
     var barcodeScanner: BarcodeScanner?
     var barcodeFormatOptionSet: BarcodeFormat = []
-    
-    class func newInstance() -> VisionCameraScanner {
-        return VisionCameraScanner()
-    }
     
     public override func callback(_ frame: Frame, withArguments arguments: [AnyHashable: Any]?) -> Any? {
         let image = VisionImage(buffer: frame.buffer)

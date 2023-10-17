@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* VisionCameraQrCodeExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VisionCameraQrCodeExampleTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-VisionCameraQrCodeExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-VisionCameraQrCodeExample.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.a */; };
+		4EFF206DA3F2292CE02F9275 /* libPods-VisionCameraQrCodeExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B556D7C4FD3773CFE8DD86A8 /* libPods-VisionCameraQrCodeExample.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		D44779512ADE6B7F00AED048 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44779502ADE6B7F00AED048 /* File.swift */; };
+		A2DAED4005E7379CD534019E /* libPods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C57037C1DBE55F925381BD /* libPods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,16 +36,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VisionCameraQrCodeExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VisionCameraQrCodeExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VisionCameraQrCodeExample/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-VisionCameraQrCodeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraQrCodeExample.debug.xcconfig"; path = "Target Support Files/Pods-VisionCameraQrCodeExample/Pods-VisionCameraQrCodeExample.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-VisionCameraQrCodeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraQrCodeExample.release.xcconfig"; path = "Target Support Files/Pods-VisionCameraQrCodeExample/Pods-VisionCameraQrCodeExample.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-VisionCameraQrCodeExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionCameraQrCodeExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C33435861F7C432E1BE6CF /* Pods-VisionCameraQrCodeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraQrCodeExample.debug.xcconfig"; path = "Target Support Files/Pods-VisionCameraQrCodeExample/Pods-VisionCameraQrCodeExample.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VisionCameraQrCodeExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.release.xcconfig"; path = "Target Support Files/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		D447794F2ADE6B7F00AED048 /* VisionCameraQrCodeExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VisionCameraQrCodeExample-Bridging-Header.h"; sourceTree = "<group>"; };
-		D44779502ADE6B7F00AED048 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = VisionCameraQrCodeExample/File.swift; sourceTree = "<group>"; };
+		9696653C2F6D13297847D41B /* Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7C57037C1DBE55F925381BD /* libPods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B556D7C4FD3773CFE8DD86A8 /* libPods-VisionCameraQrCodeExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionCameraQrCodeExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAE1A86847EAC9E1A6711C7 /* Pods-VisionCameraQrCodeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraQrCodeExample.release.xcconfig"; path = "Target Support Files/Pods-VisionCameraQrCodeExample/Pods-VisionCameraQrCodeExample.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F2EDD18D390050244F0A9A6E /* Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.release.xcconfig"; path = "Target Support Files/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.a in Frameworks */,
+				A2DAED4005E7379CD534019E /* libPods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-VisionCameraQrCodeExample.a in Frameworks */,
+				4EFF206DA3F2292CE02F9275 /* libPods-VisionCameraQrCodeExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +92,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				D44779502ADE6B7F00AED048 /* File.swift */,
-				D447794F2ADE6B7F00AED048 /* VisionCameraQrCodeExample-Bridging-Header.h */,
 			);
 			name = VisionCameraQrCodeExample;
 			sourceTree = "<group>";
@@ -105,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-VisionCameraQrCodeExample.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.a */,
+				B556D7C4FD3773CFE8DD86A8 /* libPods-VisionCameraQrCodeExample.a */,
+				A7C57037C1DBE55F925381BD /* libPods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-VisionCameraQrCodeExample.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-VisionCameraQrCodeExample.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.release.xcconfig */,
+				48C33435861F7C432E1BE6CF /* Pods-VisionCameraQrCodeExample.debug.xcconfig */,
+				DBAE1A86847EAC9E1A6711C7 /* Pods-VisionCameraQrCodeExample.release.xcconfig */,
+				9696653C2F6D13297847D41B /* Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.debug.xcconfig */,
+				F2EDD18D390050244F0A9A6E /* Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -160,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VisionCameraQrCodeExampleTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				2D6BF7CA9E70E99DAF7AB52B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				055713230E7DDFE73C5E4479 /* [CP] Embed Pods Frameworks */,
+				D6BF7F8B319C6B87A8688900 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VisionCameraQrCodeExample" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				2E7A09B2CD69F41B26F80C01 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				A4ADD6E11018ADB052FD9242 /* [CP] Embed Pods Frameworks */,
+				3A2BDE104F1A7399169268C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,24 +266,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		055713230E7DDFE73C5E4479 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample/Pods-VisionCameraQrCodeExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample/Pods-VisionCameraQrCodeExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample/Pods-VisionCameraQrCodeExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		2D6BF7CA9E70E99DAF7AB52B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,7 +305,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		2E7A09B2CD69F41B26F80C01 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -332,24 +327,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests/Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		3A2BDE104F1A7399169268C3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,7 +344,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample/Pods-VisionCameraQrCodeExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		A4ADD6E11018ADB052FD9242 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample/Pods-VisionCameraQrCodeExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample/Pods-VisionCameraQrCodeExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionCameraQrCodeExample/Pods-VisionCameraQrCodeExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6BF7F8B319C6B87A8688900 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,7 +413,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
-				D44779512ADE6B7F00AED048 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,9 +430,8 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 9696653C2F6D13297847D41B /* Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -464,9 +457,8 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.release.xcconfig */;
+			baseConfigurationReference = F2EDD18D390050244F0A9A6E /* Pods-VisionCameraQrCodeExample-VisionCameraQrCodeExampleTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = VisionCameraQrCodeExampleTests/Info.plist;
@@ -489,7 +481,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-VisionCameraQrCodeExample.debug.xcconfig */;
+			baseConfigurationReference = 48C33435861F7C432E1BE6CF /* Pods-VisionCameraQrCodeExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -511,14 +503,14 @@
 				PRODUCT_NAME = VisionCameraQrCodeExample;
 				SWIFT_OBJC_BRIDGING_HEADER = "VisionCameraQrCodeExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.2;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-VisionCameraQrCodeExample.release.xcconfig */;
+			baseConfigurationReference = DBAE1A86847EAC9E1A6711C7 /* Pods-VisionCameraQrCodeExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -538,7 +530,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.123qwe;
 				PRODUCT_NAME = VisionCameraQrCodeExample;
 				SWIFT_OBJC_BRIDGING_HEADER = "VisionCameraQrCodeExample-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.2;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
