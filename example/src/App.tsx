@@ -1,15 +1,27 @@
 import * as React from 'react';
 
 import { StyleSheet, Text } from 'react-native';
-import { Camera, useCameraDevices } from 'react-native-vision-camera';
-import { BarcodeFormat, useScanBarcodes } from 'vision-camera-code-scanner';
+import {
+  Camera,
+  useCameraDevices,
+  useFrameProcessor,
+  type Frame,
+} from 'react-native-vision-camera';
+import {
+  BarcodeFormat,
+  scanBarcodes,
+  // useScanBarcodes,
+} from 'vision-camera-qr-code';
+import { runOnJS } from 'react-native-reanimated';
 
 export default function App() {
   const [hasPermission, setHasPermission] = React.useState(false);
-  const [frameProcessor, barcodes] = useScanBarcodes([
-    BarcodeFormat.ALL_FORMATS,
-    BarcodeFormat.QR_CODE,
-  ]);
+  // const [frameProcessor, barcodes] = useScanBarcodes([
+  //   BarcodeFormat.ALL_FORMATS,
+  //   BarcodeFormat.QR_CODE,
+  // ]);
+
+  const [barcodes, setBarcodes] = React.useState<any>([]);
   const devices = useCameraDevices();
   const device = devices.find((e) => e.position === 'back');
 
@@ -24,6 +36,15 @@ export default function App() {
     console.log(barcodes);
   }, [barcodes]);
 
+  const frameProcessor = useFrameProcessor((frame: Frame) => {
+    'worklet';
+    const scannedFaces = scanBarcodes(frame, [
+      BarcodeFormat.ALL_FORMATS,
+      BarcodeFormat.QR_CODE,
+    ]);
+    runOnJS(setBarcodes)(scannedFaces);
+  }, []);
+
   return (
     device != null &&
     hasPermission && (
@@ -34,7 +55,7 @@ export default function App() {
           isActive={true}
           frameProcessor={frameProcessor}
         />
-        {barcodes.map((barcode, idx) => (
+        {barcodes.map((barcode: any, idx: number) => (
           <Text key={idx} style={styles.barcodeTextURL}>
             {barcode.displayValue}
           </Text>

@@ -1,9 +1,8 @@
+import { useState } from 'react';
 import {
   type FrameProcessor,
   useFrameProcessor,
 } from 'react-native-vision-camera';
-import { useState } from 'react';
-
 import {
   type Barcode,
   BarcodeFormat,
