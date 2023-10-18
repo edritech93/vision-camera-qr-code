@@ -1,31 +1,19 @@
-import * as React from 'react';
-
+import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text } from 'react-native';
-import {
-  Camera,
-  useCameraDevices,
-  useFrameProcessor,
-  type Frame,
-} from 'react-native-vision-camera';
-import {
-  BarcodeFormat,
-  scanBarcodes,
-  // useScanBarcodes,
-} from 'vision-camera-qr-code';
-import { runOnJS } from 'react-native-reanimated';
+import { BarcodeFormat, useScanBarcodes } from 'vision-camera-qr-code';
+import { Camera, useCameraDevices } from 'react-native-vision-camera';
 
 export default function App() {
-  const [hasPermission, setHasPermission] = React.useState(false);
-  // const [frameProcessor, barcodes] = useScanBarcodes([
-  //   BarcodeFormat.ALL_FORMATS,
-  //   BarcodeFormat.QR_CODE,
-  // ]);
+  const [hasPermission, setHasPermission] = useState(false);
+  const [frameProcessor, barcodes] = useScanBarcodes([
+    BarcodeFormat.ALL_FORMATS,
+    BarcodeFormat.QR_CODE,
+  ]);
 
-  const [barcodes, setBarcodes] = React.useState<any>([]);
   const devices = useCameraDevices();
   const device = devices.find((e) => e.position === 'back');
 
-  React.useEffect(() => {
+  useEffect(() => {
     (async () => {
       const status = await Camera.requestCameraPermission();
       setHasPermission(status === 'granted');
@@ -36,15 +24,6 @@ export default function App() {
     console.log(barcodes);
   }, [barcodes]);
 
-  const frameProcessor = useFrameProcessor((frame: Frame) => {
-    'worklet';
-    const scannedFaces = scanBarcodes(frame, [
-      BarcodeFormat.ALL_FORMATS,
-      BarcodeFormat.QR_CODE,
-    ]);
-    runOnJS(setBarcodes)(scannedFaces);
-  }, []);
-
   return (
     device != null &&
     hasPermission && (
@@ -53,6 +32,7 @@ export default function App() {
           style={StyleSheet.absoluteFill}
           device={device}
           isActive={true}
+          pixelFormat={'yuv'}
           frameProcessor={frameProcessor}
         />
         {barcodes.map((barcode: any, idx: number) => (
