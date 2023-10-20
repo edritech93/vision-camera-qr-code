@@ -1,11 +1,12 @@
 import VisionCamera
 import MLKitBarcodeScanning
 import MLKitVision
+import VisionCamera
 
 @objc(VisionCameraQrCodePlugin)
 public class VisionCameraQrCodePlugin: FrameProcessorPlugin {
-    @objc public init(withOptions options: [AnyHashable : Any]) {
-        super.init()
+    public override init(options: [AnyHashable: Any]! = [:]) {
+        super.init(options: options)
     }
     
     var barcodeScanner: BarcodeScanner?

@@ -7,17 +7,4 @@
 #import "VisionCameraQrCode-Swift.h"
 #endif
 
-@interface VisionCameraQrCodePlugin (FrameProcessorPluginLoader)
-@end
-
-@implementation VisionCameraQrCodePlugin (FrameProcessorPluginLoader)
-
-+ (void)load
-{
-  [FrameProcessorPluginRegistry addFrameProcessorPlugin:@"scanCode"
-                                        withInitializer:^FrameProcessorPlugin*(NSDictionary* options) {
-    return [[VisionCameraQrCodePlugin alloc] initWithOptions:options];
-  }];
-}
-
-@end
+VISION_EXPORT_SWIFT_FRAME_PROCESSOR(VisionCameraQrCodePlugin, scanCode)

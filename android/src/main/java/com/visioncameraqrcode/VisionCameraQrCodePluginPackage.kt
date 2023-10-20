@@ -7,9 +7,11 @@ import com.facebook.react.uimanager.ViewManager
 import com.mrousavy.camera.frameprocessor.FrameProcessorPluginRegistry
 
 class VisionCameraQrCodePluginPackage : ReactPackage {
-  init {
-    FrameProcessorPluginRegistry.addFrameProcessorPlugin("scanCode") { options ->
-      VisionCameraQrCodePlugin()
+  companion object {
+    init {
+      FrameProcessorPluginRegistry.addFrameProcessorPlugin("scanCode") { options ->
+        VisionCameraQrCodePlugin(options)
+      }
     }
   }
 

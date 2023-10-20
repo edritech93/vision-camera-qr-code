@@ -15,11 +15,11 @@ import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.common.internal.ImageConvertUtils
 import com.mrousavy.camera.frameprocessor.Frame
 import com.mrousavy.camera.frameprocessor.FrameProcessorPlugin
-import com.mrousavy.camera.parsers.Orientation
+import com.mrousavy.camera.types.Orientation
 import com.visioncameraqrcode.BarcodeConverter.convertToArray
 import com.visioncameraqrcode.BarcodeConverter.convertToMap
 
-class VisionCameraQrCodePlugin : FrameProcessorPlugin() {
+class VisionCameraQrCodePlugin(options: Map<String, Any>?): FrameProcessorPlugin(options) {
 
   private var barcodeScanner: BarcodeScanner? = null
   private var barcodeScannerFormatsBitmap = -1
